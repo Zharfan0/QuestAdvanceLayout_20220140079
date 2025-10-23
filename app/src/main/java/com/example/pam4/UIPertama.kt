@@ -69,7 +69,7 @@ fun ActivityPertama(modifier:Modifier){
             Column () {
             }
             Text(
-                text =
+                text = stringResource(R.string.alamat)
             )
         }
     }
