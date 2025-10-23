@@ -66,4 +66,7 @@ fun ActivityPertama(modifier:Modifier){
             )
         }
     }
+    Row {
+
+    }
 }
