@@ -27,6 +27,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import kotlinx.serialization.internal.throwMissingFieldException
 
+
 @Composable
 fun ActivityPertama(modifier:Modifier){
     Column(modifier = Modifier
