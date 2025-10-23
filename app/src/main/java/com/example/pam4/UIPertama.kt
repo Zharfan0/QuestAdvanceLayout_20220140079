@@ -24,6 +24,7 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import kotlinx.serialization.internal.throwMissingFieldException
 
 @Composable
 fun ActivityPertama(modifier:Modifier){
@@ -64,10 +65,12 @@ fun ActivityPertama(modifier:Modifier){
                 )
             }
         }
-        Row {
-            Column {
-
+        Row () {
+            Column () {
             }
+            Text(
+                text =
+            )
         }
     }
 }
