@@ -85,7 +85,7 @@ fun ActivityPertama(modifier:Modifier){
                 containerColor = Color.DarkGray
             )){
             Row () {
-                val gambar = painterResource(R.drawable.logo_ugm)
+                val gambar = painterResource(R.drawable.logo_ub)
                 Image(
                     painter = gambar,
                     contentDescription = null,
@@ -123,7 +123,7 @@ fun ActivityPertama(modifier:Modifier){
                 containerColor = Color.DarkGray
             )){
             Row () {
-                val gambar = painterResource(R.drawable.logo_ugm)
+                val gambar = painterResource(R.drawable.logo_ui)
                 Image(
                     painter = gambar,
                     contentDescription = null,
