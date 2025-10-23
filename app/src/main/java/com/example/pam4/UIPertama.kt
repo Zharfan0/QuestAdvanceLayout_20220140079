@@ -90,7 +90,7 @@ fun ActivityPertama(modifier:Modifier){
                     painter = gambar,
                     contentDescription = null,
                     modifier = Modifier
-                        .size(100.dp)
+                        .size(120.dp)
                         .padding(5.dp)
                 )
                 Spacer(modifier = Modifier.width(30.dp))
