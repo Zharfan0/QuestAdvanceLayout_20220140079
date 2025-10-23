@@ -82,7 +82,7 @@ fun ActivityPertama(modifier:Modifier){
             .fillMaxWidth(1f)
             .padding(12.dp),
             colors = CardDefaults.cardColors(
-                containerColor = Color.DarkGray
+                containerColor = Color.Blue
             )){
             Row () {
                 val gambar = painterResource(R.drawable.logo_ub)
@@ -120,7 +120,7 @@ fun ActivityPertama(modifier:Modifier){
             .fillMaxWidth(1f)
             .padding(12.dp),
             colors = CardDefaults.cardColors(
-                containerColor = Color.DarkGray
+                containerColor = Color.Red
             )){
             Row () {
                 val gambar = painterResource(R.drawable.logo_ui)
