@@ -2,6 +2,7 @@ package com.example.pam4
 
 import android.widget.Space
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -44,7 +45,7 @@ fun ActivityPertama(modifier:Modifier){
                 .padding(12.dp),
                 colors = CardDefaults.cardColors(
                     containerColor = Color.DarkGray
-                )){}
+                )){
         Row () {
             val gambar = painterResource(R.drawable.logo_ugm)
             Image(
@@ -76,4 +77,8 @@ fun ActivityPertama(modifier:Modifier){
             )
         }
     }
+    }
+    Box(
+
+    ){}
 }
