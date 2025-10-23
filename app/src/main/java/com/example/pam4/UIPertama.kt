@@ -74,7 +74,16 @@ fun ActivityPertama(modifier:Modifier){
                             color = Color.Yellow,
                             modifier = Modifier.padding(top=10.dp)
                         )
-
+                    }
+                    Row () {
+                        Column () {
+                        }
+                        Text(
+                            text = stringResource(R.string.nim),
+                            fontSize = 20.sp,
+                            color = Color.Yellow,
+                            modifier = Modifier.padding(top=10.dp)
+                        )
                     }
                 }
             }
